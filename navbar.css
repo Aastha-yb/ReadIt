@@ -1,7 +1,7 @@
 body {
     background: #f5d9d5;
     font-family: "Nunito", sans-serif;
-    padding-top: 1em; 
+    padding-top: 1rem; 
 }
 a{
    
@@ -20,14 +20,14 @@ a{
   font-weight: 100;
 
   border: none;
-  margin-top: 0.5em;
+  margin-top: 0.5rem;
  }
  .button2{
   font-weight: 100;
-   margin-top: 0.5em;
+   margin-top: 0.5rem;
  }
  .search{
-  padding-top: 0.5em;
+  padding-top: 0.5rem;
  }
  
  #mainNavbar {
@@ -35,12 +35,12 @@ a{
     font-weight: 100; 
     border:none;   
     padding-bottom: 1rem;
-    margin-right-left:0.7em; 
+    margin-right-left:0.7rem; 
 }
 
 #mainNavbar .nav-link {
     color: white;
-    padding-top: 0.5em;
+    padding-top: 0.5rem;
 }
 #mainNavbar .navbar-right{
   float:right;
@@ -59,7 +59,7 @@ a{
 #mainNavbar .navbar-brand {
     color: #EA1C2C;
     font-size: 2rem;
-    padding-top: 0.6em;
+    padding-top: 0.6rem;
 }
 
 /*#headingGroup span {
@@ -90,9 +90,9 @@ a{
 .dropdown{
 font-size: 1.7rem;
 color: white;
-padding-top: 0.5em;
-padding-right-left:0.4em; 
-margin-right: 0.5em;
+padding-top: 0.5rem;
+padding-right-left:0.4rem; 
+margin-right: 0.5rem;
 }
 .navlink{
     margin-top: 30%;
