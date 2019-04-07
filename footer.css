@@ -1,0 +1,19 @@
+.footer-distributed .footer-left,
+.footer-distributed .footer-center{
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 1em;
+  padding-right: 7.5em;
+  border-right: 0.2em solid black;
+  height:12em;
+}
+.footer-distributed .footer-right
+{
+  display: inline-block;
+  padding-left: 1em;
+}
+.footer-distributed{
+box-shadow: 0 4em 4em 0 rgba(0, 0, 0, 0.0);
+  box-sizing: border-box;
+  color: black;
+}
