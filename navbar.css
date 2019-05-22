@@ -19,15 +19,15 @@ a{
       /*background: url(https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Beautiful-Full-HD-Wallpaper-Download-Free-PIC-WPE0010098.jpg) no-repeat 50% 50%;
       background-size: cover;*/
 }
- .button1{
+ #button1{
   background-color: #EA1C2C;
   font-family: "Nunito", sans-serif;
   color: white;
   font-weight: 100;
-
+font-size: 1em;
   border: none;
-  margin-top: 2.7em;
-  padding:0.5em;
+  margin-top: 1.5rem;
+  padding:0.7rem;
   width: 10rem;
 
  }
@@ -39,17 +39,17 @@ a{
    border: none;
    color: white;
    font-size: 1.2rem;
-   margin-top: 3.5em;
-  padding:0.6em;
+   margin-top: 2.5rem;
+  padding:0.7rem;
   width: 11rem;
   padd
  }
  .search{
 /*padding-top: 2.3em;*/
 font-size: 1.5rem;
-padding: 0.5em;
+padding: 0.7rem;
 /*padding-right:0.4em; */
-margin-top: 1em;
+margin-top: 1.2rem;
 
  }
  
@@ -127,12 +127,12 @@ margin-top: 1em;
 
 }
 .dropdown{
-font-size: 2em;
+font-size: 3rem;
 color: white;
-padding-top: 1em;
-padding-right:0.4rem; 
+padding-top: 1rem;
+padding-right:1rem; 
 margin-right: 0.5rem;
-padding-left: .5em;
+padding-left: .5rem;
 }
 .dropdown1{
 font-size: 2em;
@@ -173,3 +173,4 @@ background-color: none;
       font-size: 20px;
       letter-spacing: 2px;
 }
+
