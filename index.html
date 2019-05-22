@@ -31,54 +31,63 @@
     
 </head>
 <body>
-    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
-        <a href="#" class="navbar-brand"><img src="images\logo6.png"><a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <header>
+            
+           <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md fixed-top nav-fill ">
+        <a href="#" class="navbar-brand" id="logo"><img src="images\logo6.png"></a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#exampleNavComponents" aria-expanded"false">
+    <i class="glyphicon glyphicon-align-center"></i>
+</button>
         <div class="collapse navbar-collapse" id="navLinks">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav navbabar-left">
                <li class="dropdown" id=dropdown>
                         <a data-toggle="dropdown">Browse<span class="caret" ></span></a>
-                        <ul  id="dropdown" class="dropdown-menu">
-                            <li><a href="#">Newly Added</a></li>
-                            <li><a href="#">Best Seller</a></li>
-                            <li><a href="#">Authors</a></li>
-                            <li><a href="#">Genres</a></li>
-                            <li><a href="#">Subjects</a></li>
+                        <ul  id="dropdown1" class="dropdown-menu">
+                            <li><a href="#"><h3>Newly Added</h3></a></li>
+                            <li><a href="#"><h3>Best Seller</h3></a></li>
+                            <li><a href="#"><h3>Authors</h3></a></li>
+                            <li><a href="#"><h3>Genres</h3></a></li>
+                            <li><a href="#"><h3>Subjects</h3></a></li>
                         </ul>
                     </li>
-                    <li class="search"> 
+                    <li class="search">
                         <input type="text" class="form-control" placeholder="Search">
                     </li>
                     <li>
                         <button class="button1" type="submit" class="btn">Submit</button>
                     </li>
-                
+
             </ul>
-            <ul class="nav navbar-nav navbar-right" id="right">
-                <li>
-                    <a href="" class="nav-link"><button type="button" class ="btn btn-default" type="signup" >Sign Up<i class="fas fa-user-plus"></i></button></a>
-                </li>
-                <li>
-                    <a href="" class="nav-link"><button type="button" class ="btn btn-default" type="login" >Login<i class="fas fa-user"></i></button></a>
-                </li>
+            <div class="right1">
+            <ul class="nav " >
+                
                 <li class="dropdown" id=dropdown>
-                    <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More<span class="caret" ></span></a>
-                        <ul  id="dropdown" class="dropdown-menu">
-                            <li><a href="#">Your Profile</a></li>
-                            <li><a href="#">Your Books</a></li>
-                            <li><a href="#"></a></li>
+                    <a data-toggle="dropdown">More<span class="caret" ></span></a>
+                    
+
+                        <ul  id="dropdown1" class="dropdown-menu">
+                            <li><a href="#"><h3>Your Profile</h3></a></li>
+                            <li><a href="#"><h3>Your Books</h3></a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="#">Help & support</a></li>
-                            <li><a href="#">Settings</a></li>
-                            <li><a href="#">Developer Center</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#"><h3>Help & support</h3></a></li>
+                            <li><a href="#"><h3>Settings</h3></a></li>
+                            <li><a href="#"><h3>Contact</h3></a></li>
                         </ul>
+
+                   
+                </li>
+                <li class="right1">
+                    <a href="" class="nav-link"><button type="button" class ="btn btn-default" type="signup" id="button2" >Sign Up<i class="fas fa-user-plus"></i></button></a>
+                </li>
+                <li class="right1">
+                    <a href="" class="nav-link"><button type="button" class ="btn btn-default" type="login" id="button2" >Login<i class="fas fa-user"></i></button></a>
                 </li>
             </ul>
         </div>
+        </div>
+    
     </nav>
+    </header>
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-sm-6">
@@ -97,15 +106,14 @@
             </div>
             <div class="col-lg-6 col-sm-6">
                 <div class="thumbnail">
-                    <h3>Open a book And you will find People and places of every kind;</h3>
-                    <h3>Open a book And you can be Anything that you want to be;</h3>
-                    <h3>Open a book And you can share Wondrous worlds you find in there;</h3>
-                    <h3>Open a book And I will too You read to me And I’ll read to you.</h3>
+                    <h1>Open a book And you will find People and places of every kind;</h1>
+                    <h1>Open a book And you can be Anything that you want to be;</h1>
+                    <h1>Open a book And you can share Wondrous worlds you find in there;</h1>
+                    <h1>Open a book And I will too You read to me And I’ll read to you.</h1>
               </div>
           </div>
         </div>
     </div>
-
 <!--NEW RELEASES-->
 <div class="topic" id="blue">
 	<h4  id="topic">New Releases</h4>
