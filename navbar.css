@@ -26,28 +26,31 @@ a{
   font-weight: 100;
 
   border: none;
-  margin-top: 1.5em;
-  padding:0.7rem;
+  margin-top: 2.7em;
+  padding:0.5em;
+  width: 10rem;
+
  }
  #button2{
   font-weight: 100;
   background-color: #EA1C2C;
   font-family: "Nunito", sans-serif;
-   margin-top: 2.5em;
-   padding:0.7em;
+   
    border: none;
    color: white;
    font-size: 1.2rem;
+   margin-top: 3.5em;
+  padding:0.6em;
+  width: 11rem;
+  padd
  }
  .search{
 /*padding-top: 2.3em;*/
 font-size: 1.5rem;
-box-sizing: 15%;
-padding: 0.7em 2em;
+padding: 0.5em;
 /*padding-right:0.4em; */
-margin-top: 1.5em;
-margin-right: 0.7rem;
-height: 30%;
+margin-top: 1em;
+
  }
  
  #mainNavbar {
@@ -123,15 +126,15 @@ height: 30%;
       padding-left: 17em;
 
 }
-#dropdown{
+.dropdown{
 font-size: 2em;
 color: white;
-padding-top: 0.7em;
+padding-top: 1em;
 padding-right:0.4rem; 
 margin-right: 0.5rem;
 padding-left: .5em;
 }
-#dropdown1{
+.dropdown1{
 font-size: 2em;
 color: white;
 padding-top: 0.5em;
@@ -156,6 +159,9 @@ background-color: none;
       /*padding: 15rem 24rem;*/
       cursor: pointer;
       color: #fff;
+}
+.more{
+  margin-left: 30%;
 }
 .logo {
       line-height: 60px;
