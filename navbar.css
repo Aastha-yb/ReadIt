@@ -13,21 +13,41 @@ a{
   border:none;
 
  }
+ header {
+      width: 100%;
+      /*height: 100vh;*/
+      /*background: url(https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Beautiful-Full-HD-Wallpaper-Download-Free-PIC-WPE0010098.jpg) no-repeat 50% 50%;
+      background-size: cover;*/
+}
  .button1{
-  background-color: #EA1C2C;;
+  background-color: #EA1C2C;
   font-family: "Nunito", sans-serif;
   color: white;
   font-weight: 100;
 
   border: none;
-  margin-top: 0.5rem;
+  margin-top: 1.5em;
+  padding:0.7rem;
  }
- .button2{
+ #button2{
   font-weight: 100;
-   margin-top: 0.5rem;
+  background-color: #EA1C2C;
+  font-family: "Nunito", sans-serif;
+   margin-top: 2.5em;
+   padding:0.7em;
+   border: none;
+   color: white;
+   font-size: 1.2rem;
  }
  .search{
-  padding-top: 0.5rem;
+/*padding-top: 2.3em;*/
+font-size: 1.5rem;
+box-sizing: 15%;
+padding: 0.7em 2em;
+/*padding-right:0.4em; */
+margin-top: 1.5em;
+margin-right: 0.7rem;
+height: 30%;
  }
  
  #mainNavbar {
@@ -35,7 +55,10 @@ a{
     font-weight: 100; 
     border:none;   
     padding-bottom: 1rem;
-    margin-right-left:0.7rem; 
+    /*margin-right:0.7rem;
+    margin-left:0.7rem; */
+    height: 15%;
+    width: 100%;
 }
 
 #mainNavbar .nav-link {
@@ -58,8 +81,8 @@ a{
 
 #mainNavbar .navbar-brand {
     color: #EA1C2C;
-    font-size: 2rem;
-    padding-top: 0.6rem;
+    font-size: 1.5rem;
+    padding-top: 0.1rem;
 }
 
 /*#headingGroup span {
@@ -76,6 +99,7 @@ a{
 .navbar.scrolled {
     background: rgb(222,192,222);
     transition: background 500ms;
+    height:  10%;
 }
 
 @media (max-width: 1200px) {
@@ -86,17 +110,60 @@ a{
     .blurb h2 {
         font-size: 2rem;
     }
+  }
+.menu{
+      /*line-height: 60rem;*/
+      /*width: 100%;*/
+      text-align: right;
+      float: right;
+      
+      /*padding-top: 0.5em;
+      padding-right:0.4rem; */
+      padding-top: 2rem;
+      padding-left: 17em;
+
 }
-.dropdown{
-font-size: 1.7rem;
+#dropdown{
+font-size: 2em;
 color: white;
-padding-top: 0.5rem;
-padding-right-left:0.4rem; 
+padding-top: 0.7em;
+padding-right:0.4rem; 
 margin-right: 0.5rem;
+padding-left: .5em;
 }
+#dropdown1{
+font-size: 2em;
+color: white;
+padding-top: 0.5em;
+padding-right:0.4rem; 
+margin-right: 0.5rem;
+background-color: none;
+
 .navlink{
     margin-top: 30%;
 }
-#right{
+#right1{
   float:right;
+  text-align: right;
+}
+#right{
+      text-align: right;
+      float: right;
+      box-sizing: border-box;
+      border:none;
+      padding-top: 2rem;
+      /*padding-left: 40%;
+      /*padding: 15rem 24rem;*/
+      cursor: pointer;
+      color: #fff;
+}
+.logo {
+      line-height: 60px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
 }
