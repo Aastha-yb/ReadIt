@@ -26,7 +26,7 @@ a{
   font-weight: 100;
 font-size: 1em;
   border: none;
-  margin-top: 1.5em;
+  margin-top: 1.5rem;
   padding:0.7rem;
   width: 10rem;
 
@@ -133,7 +133,6 @@ padding-top: 1rem;
 padding-right:1rem; 
 margin-right: 0.5rem;
 padding-left: .5rem;
-    margin-top:1em;
 }
 .dropdown1{
 font-size: 2em;
