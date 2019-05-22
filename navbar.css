@@ -26,7 +26,7 @@ a{
   font-weight: 100;
 font-size: 1em;
   border: none;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   padding:0.7rem;
   width: 10rem;
 
@@ -133,7 +133,7 @@ padding-top: 1.2rem;
 padding-right:1rem; 
 margin-right: 0.5rem;
 padding-left: .5rem;
-margin-top:0.5rem;
+margin-top:0.7rem;
 }
 .dropdown1{
 font-size: 2em;
@@ -150,20 +150,7 @@ background-color: none;
   float:right;
   text-align: right;
 }
-#right{
-      text-align: right;
-      float: right;
-      box-sizing: border-box;
-      border:none;
-      padding-top: 2rem;
-      /*padding-left: 40%;
-      /*padding: 15rem 24rem;*/
-      cursor: pointer;
-      color: #fff;
-}
-.more{
-  margin-left: 30%;
-}
+
 .logo {
       line-height: 60px;
       position: fixed;
